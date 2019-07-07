@@ -2,16 +2,26 @@
   "name": "my-likita-webapp",
   "version": "0.1.0",
   "private": true,
+  "main": "./App.js",
   "dependencies": {
+    "expo": "^33.0.7",
     "react": "^16.8.6",
+    "react-art": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-native": "^0.60.0",
+    "react-native-web": "^0.11.5",
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start-web": "react-scripts start",
+    "build-web": "react-scripts build",
+    "test-web": "react-scripts test",
+    "eject-web": "react-scripts eject",
+    "start-native": "expo start",
+    "android": "expo android",
+    "ios": "expo ios",
+    "build:ios": "expo build:ios",
+    "build:android": "expo build:android"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -27,5 +37,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.2.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx-source": "^6.22.0",
+    "babel-preset-expo": "^5.2.0"
   }
 }

@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "sdkVersion": "33.0.0",
+    "name": "my-likita",
+    "slug": "my-likita",
+    "version": "0.1.0",
+    "primaryColor": "#ff8179",
+    "android": {
+      "package": "com.random.people"
+    },
+    "description": "Proximity App for Hospitals"
+  }
+}
