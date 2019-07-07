@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 import { AppRegistry, StyleSheet, View, SafeAreaView, Text } from 'react-native';
 import Home from './screens/home';
 
