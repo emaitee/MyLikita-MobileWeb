@@ -13,10 +13,10 @@
     "react-scripts": "3.0.1"
   },
   "scripts": {
-    "start-web": "react-scripts start",
-    "build-web": "react-scripts build",
-    "test-web": "react-scripts test",
-    "eject-web": "react-scripts eject",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
     "start-native": "expo start",
     "android": "expo android",
     "ios": "expo ios",
